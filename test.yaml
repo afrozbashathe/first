@@ -1,10 +1,9 @@
 name: Build and Test
 
 on:
-
   push:
     branches:
-      - bugfix
+      bugfix
 
 jobs:
   build:
