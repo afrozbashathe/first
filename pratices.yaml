@@ -1,6 +1,8 @@
 name: shell commands
 
-on: [push]
+on:
+   push: 
+     branch: [bugfix]
 
 jobs:
   run-shell-command: 
@@ -12,3 +14,4 @@ jobs:
         run: | 
         node -v
         npm -v
+
